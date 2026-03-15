@@ -1,0 +1,35 @@
+{
+  "name": "nazirite-beard-oil-store",
+  "version": "2.0.0",
+  "description": "Backend API for Nazirite Beard Oil Co. ecommerce store",
+  "keywords": [
+    "mern",
+    "ecommerce",
+    "beard-oil"
+  ],
+  "homepage": "https://github.com/phillipharden/mern-ecommerce-store#readme",
+  "bugs": {
+    "url": "https://github.com/phillipharden/mern-ecommerce-store/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phillipharden/mern-ecommerce-store.git"
+  },
+  "license": "ISC",
+  "author": "Phillip Harden",
+  "type": "module",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.14"
+  }
+}

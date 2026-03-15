@@ -13,14 +13,14 @@ const Product = ({ product }) => {
                     to={`/product/${product._id}`}
                     className="text-decoration-none"
                 >
-                    <Card.Title as="div"className="product-title" >
+                    <Card.Title as="div" className="product-title" >
                         <strong>{product.name}</strong>
                     </Card.Title>
-                </Link>              
+                </Link>
                 <Card.Text as="h3">
                     ${product.price}
                 </Card.Text>
-                  <Card.Text as="div">
+                <Card.Text as="div">
                     <Rating
                         value={product.rating}
                         numReviews={product.numReviews}

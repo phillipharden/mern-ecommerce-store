@@ -22,7 +22,10 @@ const ProductScreen = () => {
                             <h3>{product.name}</h3>
                         </ListGroup.Item>
                         <ListGroup.Item>
-                            <Rating value={product.rating} text={`${product.numReviews} reviews`} />
+                              <Rating
+                        value={product.rating}
+                        numReviews={product.numReviews}
+                    />
                         </ListGroup.Item>
                         <ListGroup.Item>
                             Description: {product.description}
@@ -42,7 +45,7 @@ const ProductScreen = () => {
                                     </Col>
                                 </Row>
                             </ListGroup.Item>
-                             <ListGroup.Item>
+                            <ListGroup.Item>
                                 <Row>
                                     <Col>
                                         Status:
@@ -54,9 +57,9 @@ const ProductScreen = () => {
                             </ListGroup.Item>
                             <ListGroup.Item>
                                 <Button
-                                className='btn-block'
-                                type='button'
-                                disabled={product.countInStock === 0}
+                                    className='btn-block'
+                                    type='button'
+                                    disabled={product.countInStock === 0}
                                 >
                                     Add To Cart
                                 </Button>

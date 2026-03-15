@@ -1,0 +1,89 @@
+:root {
+  --pf-black: #191919;
+  --pf-dark-gray: #2b2b2b;
+  --pf-gray: #808080;
+  --pf-light-gray: #d9d9d9;
+  --pf-bg: #f3f4f6;
+  --pf-surface: #ffffff;
+  --pf-white: #ffffff;
+  --pf-accent: #1ceff4;
+}
+body {
+  background: var(--pf-bg);
+  color: var(--pf-black);
+}
+
+/* Navbar */
+
+.navbar {
+  background: var(--pf-black);
+  border-bottom: 1px solid var(--pf-light-gray);
+}
+
+.navbar-brand {
+  color: var(--pf-white);
+  font-weight: 600;
+}
+
+.navbar-brand:hover {
+  color: var(--pf-accent);
+}
+
+.nav-link {
+  color: var(--pf-light-gray);
+}
+
+.nav-link:hover {
+  color: var(--pf-accent);
+}
+
+/* Cards */
+
+.card {
+  background: var(--pf-surface);
+  border: 1px solid var(--pf-light-gray);
+}
+
+.card-title {
+  color: var(--pf-black);
+}
+
+.card-text {
+  color: var(--pf-gray);
+}
+
+/* Buttons */
+
+.btn-primary {
+  background: var(--pf-black);
+  border-color: var(--pf-black);
+}
+
+.btn-primary:hover {
+  background: var(--pf-accent);
+  border-color: var(--pf-accent);
+  color: var(--pf-black);
+}
+
+
+
+/*^ Rating Stars */
+.rating span {
+  margin: 0.1rem;
+}
+
+.rating svg {
+  color: #f8e825;
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.rating-text {
+  font-size: 0.7rem;
+  margin-left: 5px;
+  color: #6c757d;
+}

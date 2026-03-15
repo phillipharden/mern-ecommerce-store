@@ -1,0 +1,29 @@
+.navbar-override {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+/*^ Header -=-=-=-=-=-=-=-=-=-=-=-=--=-=-*/
+.nav-logo {
+  width: 200px;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .nav-logo {
+    width: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-logo {
+    width: 145px;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-logo {
+    width: 130px;
+  }
+}

@@ -4,7 +4,6 @@
 
 const products = [
   {
-    _id: '1',
     name: 'Frankincense & Myrrh Beard Oil',
     image: '/images/beard-oil-1.png',
     description:
@@ -17,7 +16,6 @@ const products = [
     numReviews: 21,
   },
   {
-    _id: '2',
     name: 'Cedarwood Beard Oil',
     image: '/images/beard-oil-2.png',
     description:
@@ -30,7 +28,6 @@ const products = [
     numReviews: 14,
   },
   {
-    _id: '3',
     name: 'Sandalwood Beard Oil',
     image: '/images/beard-oil-3.png',
     description:
@@ -43,7 +40,6 @@ const products = [
     numReviews: 17,
   },
   {
-    _id: '4',
     name: 'Peppermint & Eucalyptus Beard Oil',
     image: '/images/beard-oil-4.png',
     description:
@@ -56,7 +52,6 @@ const products = [
     numReviews: 9,
   },
   {
-    _id: '5',
     name: 'Vanilla Tobacco Beard Oil',
     image: '/images/beard-oil-5.png',
     description:
@@ -69,7 +64,6 @@ const products = [
     numReviews: 13,
   },
   {
-    _id: '6',
     name: 'Unscented Beard Oil',
     image: '/images/beard-oil-6.png',
     description:
